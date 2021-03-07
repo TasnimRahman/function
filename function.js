@@ -19,6 +19,8 @@ var totalRent = hotelRent(20);
 document.write("Total rent = " + totalRent + "<br>");
 
 
+
+
 //finding best friend
 var array = ["Tasnim Rahman", "Monisha Akter", "Mashruba Jabin", "Afsana Nahid", "Farha Islam", "Nibedita Shaha Dipa"];
 
