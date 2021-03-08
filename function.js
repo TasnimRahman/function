@@ -6,16 +6,16 @@ function hotelRent(day) {
     }
 
     else if(day>=11 && day<=20){
-        var rent = day*80;
+        var rent = [(10*100)+((day-10)*80)];
     }
 
     else
-        {var rent = day*50;
+        {var rent = [(10*100)+(20*80)+((day-20)*50)];
             }
     return rent;
     }
 
-var totalRent = hotelRent(20);
+var totalRent = hotelRent(16);
 document.write("Total rent = " + totalRent + "<br>");
 
 
